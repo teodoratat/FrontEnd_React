@@ -92,7 +92,7 @@ class Table extends Component {
                             columns={this.state.columns}
                             defaultPageSize={this.state.pageSize}
                             getTrProps={this.getTRPropsType}
-                            showPagination={false}
+                            showPagination={true}
                             style={{
                                 height: '300px'
                             }}

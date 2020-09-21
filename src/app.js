@@ -7,8 +7,6 @@ import Persons from './person-data/person/persons'
 import ErrorPage from './commons/errorhandling/error-page';
 import styles from './commons/styles/project-style.css';
 
-let enums = require('./commons/constants/enums');
-
 class App extends React.Component {
 
 
