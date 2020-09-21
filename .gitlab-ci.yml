@@ -3,7 +3,7 @@ stages:
   - deploy
 
 variables:
-  - CI: false
+  CI: false
 
 build:
   stage: build
