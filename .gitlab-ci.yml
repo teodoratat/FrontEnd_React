@@ -7,7 +7,6 @@ build:
   image: node:6.13.7
   script:
     - npm install --progress=false
-    - npm run build
 
 deploy:
   stage: deploy
