@@ -1,0 +1,15 @@
+.form-control {
+  width: 40% !important;
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+.control-error {
+  border: 1px solid #f20000 !important;
+}
+
+.error-message{
+  color: #ec392f;
+  margin-bottom: 1%;
+}
+
