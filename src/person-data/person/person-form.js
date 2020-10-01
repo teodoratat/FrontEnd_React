@@ -73,13 +73,9 @@ class PersonForm extends React.Component {
         const name = event.target.name;
         const value = event.target.value;
 
-        const updatedControls = {
-            ...this.state.formControls
-        };
+        const updatedControls = this.state.formControls;
 
-        const updatedFormElement = {
-            ...updatedControls[name]
-        };
+        const updatedFormElement = updatedControls[name];
 
         updatedFormElement.value = value;
         updatedFormElement.touched = true;
@@ -95,6 +91,7 @@ class PersonForm extends React.Component {
             formControls: updatedControls,
             formIsValid: formIsValid
         });
+
     };
 
     registerPerson(person) {
