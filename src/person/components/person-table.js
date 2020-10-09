@@ -19,7 +19,7 @@ const filters = [
     }
 ];
 
-class PersonsTable extends React.Component {
+class PersonTable extends React.Component {
 
     constructor(props) {
         super(props);
@@ -40,4 +40,4 @@ class PersonsTable extends React.Component {
     }
 }
 
-export default PersonsTable;
+export default PersonTable;
